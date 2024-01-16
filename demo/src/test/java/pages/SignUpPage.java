@@ -148,6 +148,7 @@ public class SignUpPage {
         selectDateOfBirth(dateOfBirth);
         selectNationality(nationality);
         checkTermsAndConditions(isTermsAndConditionsChecked);
+        submitButton.submit();
     }
 
     public boolean checkErr(String expectedErr, String errorType) {
