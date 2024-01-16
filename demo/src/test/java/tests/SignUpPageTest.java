@@ -1,8 +1,11 @@
+package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import dataProviders.tests.SignUpPageDataProvider;
-import utils.SeleniumUtils;
+
+import dataProviders.dataProvider.SignUpPageDataProvider;
+import pages.SignUpPage;
+import tests.utils.SeleniumUtils;
 
 public class SignUpPageTest extends BaseUITest {
     @Test(dataProvider = "signUpPageDataProvider", dataProviderClass = SignUpPageDataProvider.class)
